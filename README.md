@@ -73,7 +73,7 @@ AI\_Image\_Pen.pptx     — 專案簡報
 
 ### 開發環境
 
-* Arduino IDE，安裝 **Ameba RTL8720（AmebaProII）** 開發板支援
+* Arduino IDE，安裝 **HUB8735Ultra）** 開發板支援
 * 需安裝函式庫：`JPEGENC`、`Adafruit\_SSD1306`、`Adafruit\_GFX`
 
 ### 設定金鑰（`ai\_pan\_pc.ino`）
@@ -98,8 +98,10 @@ String GEMINI\_KEY = "YOUR\_GEMINI\_API\_KEY";
 
 Windows 執行檔。將繪圖筆以 USB 連接電腦後執行，流程如下：
 
-1. 監聽裝置發送的握手訊號 `PC:HELLO`，回應 `PC:READY`
-2. 接收以下格式的 JPEG 影像資料：
+1. 設定目標生成種類、Gemini api key
+2. 設置好COM port 後點選連線
+3. 監聽裝置發送的握手訊號 `PC:HELLO`，回應 `PC:READY`
+4. 接收以下格式的 JPEG 影像資料：
 
 ```
    IMG\_START:<byte\_count>\\r\\n
