@@ -3,6 +3,7 @@
 一款 AI 繪圖筆裝置，透過光學追蹤感測器捕捉手繪筆跡，將其編碼為 JPEG 影像後送交 Google Gemini，生成精美的 AI 圖片或文字描述。
 
 **開發單位：瑞創框架科技股份有限公司 (RECSFRAME TECHNOLOGY CO., LTD.)**
+<img width="1916" height="1054" alt="螢幕擷取畫面 2026-05-19 001127" src="https://github.com/user-attachments/assets/6f2d3ef5-9b6b-46c6-9e11-babe87352d5c" />
 
 \---
 
